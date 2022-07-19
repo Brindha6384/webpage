@@ -1,0 +1,633 @@
+
+   
+  *{
+    
+  margin: 0 ;
+  padding: 0;
+  box-sizing: border-box; 
+
+}
+.maincontainer{
+   width: 100%;
+   max-width: 1240px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+
+.container{
+    width: 100%;
+    max-width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+  
+ }
+ 
+
+.switch{
+    
+}
+ .load{
+	animation:slide 2s;
+    display: flex;
+}
+.slider{
+    display: flex;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width:100%;
+	height: 110vh;
+	animation: slide 40s infinite;
+	
+	object-fit: cover;
+	
+} 
+
+
+.nav-link{
+
+color: white !important;
+font-size: 16px !important  ;
+padding-right: 10px !important ;
+
+
+}
+#head1{
+    font-size: 57px;
+    color:white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+
+ 
+}
+.pt-5{
+    padding-top: 6rem !important;
+}
+.btn1{
+    background-color: rgb(18, 170, 18);
+    color:white;
+    border-radius: 20px;
+    width: 150px;
+    height: 35px;
+    font-size: 18px;
+    border-style: none;
+    margin-left: 100px;
+
+    
+}
+.pull-right{
+    float:right;
+}
+
+.btn2{
+
+    color:white;
+    border-radius: 20px;
+    width: 120px;
+    height: 30px;
+    font-size: 15px;
+    border-style: none;
+    margin-left: 100px;
+  
+
+    background-color:grey;
+    opacity: 0.7;
+   
+}
+#but1{
+    border-radius: 20px;
+    width: 140px;
+    height: 35px;
+    font-size: 18px;
+    border-style: none;
+    background-color: rgb(18, 170, 18);
+    color:white;
+    margin-left: 65px;
+}
+
+
+.top{
+    margin-top: -600px;
+}
+
+
+/* @media(max-width:425px) {
+    
+    #image{
+        margin-left: 0px;
+    }
+
+
+      
+ .Mainhead{
+   position:relative;
+    top: 0% !important;
+    left: 0% !important;
+} 
+
+#img1{
+    margin-left: 60px;
+}
+#img2{
+    margin-left: 60px;
+}
+
+}  */
+
+@keyframes slide{
+    0%{
+        background-image: url('https://wheelercpa.com/wp-content/uploads/home_business.jpg');
+        background-size : cover;
+        left:0;
+    }
+    10%{
+        background-image: url('https://img1.wsimg.com/isteam/ip/e32d82dd-6a38-47d1-94b8-1a0fb97d294f/work-wallpaper-hd-For-Laptop-Wallpaper.jpg');
+        background-size : cover;
+        left:100%;
+    }
+    20%{
+        background-image: url('https://i.pinimg.com/originals/f1/c8/6b/f1c86b39574f7dd05f8d53395464ad88.jpg');
+    }
+    30%{
+        background-image: url('https://images.barrons.com/im-367098?width=639&height=426');
+    }
+    40%{
+        background-image: url('https://cdn.propertynest.com/images/devn-JmmXKlJ8MKQ-unspl.2e16d0ba.fill-685x343.format-jpeg.jpg');
+    }
+    50%{
+        background-image: url('https://plsadaptive.s3.amazonaws.com/eco/images/channel_content/images/post_pandemic_employee_experiencef0X2KL9P264F0BxhcS6VQOafcW3P0VVJJLvdOjtO.jpg');
+    }
+    60%{
+        background-image: url('https://m.wsj.net/video/20140520/052014lunchworkfam1/052014lunchworkfam1_960x540.jpg');
+    }
+    70%{
+        background-image: url('https://images.unsplash.com/photo-1521072100039-6052edf01606?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8Mnw5OTYyODR8fGVufDB8fHx8&w=1000&q=80');
+    }
+    80%{
+        background-image: url('https://media.istockphoto.com/photos/fitness-ball-on-top-of-an-office-chair-picture-id1197367652?k=20&m=1197367652&s=612x612&w=0&h=kB34YRBkZXpKmnbiqeHlidsYPJePrdk5DGK-bWvAkVE=');
+    }
+    90%{
+        background-image: url('https://img.freepik.com/free-photo/automation-programmer-with-3d-rendering-robotic-worker-work-with-computer-notebook_493806-14706.jpg?w=2000');
+    }
+    100%{
+        background-image: url('https://wheelercpa.com/wp-content/uploads/home_business.jpg');
+    }
+    
+}
+
+.card{
+    width:250px;
+    text-align: center;
+    background-color:yellowgreen;
+    margin: 14px;
+    border-width: 0;
+    margin-left: 20px;
+    border-style: none !important;
+    
+}
+.cardimg{
+    display: flex;
+    justify-content: center;
+  
+}
+
+#mybt button{
+   
+   
+    text-decoration: none;
+   
+    height:40px ;
+    padding-right: -2px;
+  
+ 
+}
+
+#mybt a{
+
+    text-decoration: none;
+   padding: 8px;
+   margin-right: -5px;
+   font-weight: 500;
+   color: black;
+ 
+
+
+}
+#top1{
+    width: 130px;
+    height: 50px;
+    margin-right: -5px;
+    border-top-left-radius: 40%;
+    border-bottom-left-radius: 40%;
+    text-align: center;
+    background-color: white;
+}
+#top2{
+    width: 74px;
+    height: 50px;
+    margin-right: -5px;
+    text-align: center;
+    background-color: white;
+}
+#top3{
+    width: 88px;
+    height: 50px;
+    margin-right: -5px;
+    border-top-right-radius: 40%;
+    border-bottom-right-radius: 40%;
+    text-align: center;
+    background-color: white;
+}
+
+#bt3{
+ 
+    padding-right: 10px;
+    height: 35px;
+    font-size: 15px;
+    outline: none;
+    cursor: pointer;
+    background-color: white;
+    border:none;
+
+    font-weight: 500;
+}
+#bt1:hover{
+    background-color: rgb(26, 139, 26);
+    color: white;
+}
+#bt2:hover{
+    background-color: rgb(26, 139, 26);
+    color: white;
+}
+#bt3:hover{
+    background-color:rgb(26, 139, 26);
+    color: white;
+}
+.images img{
+    width:190px;
+    height: 155px;
+    
+}
+.active, .btn:hover {
+    background-color:rgb(26, 139, 26);
+    color: white;
+    
+  }
+
+.btn5{
+
+    color: white;
+    border-radius: 20px;
+    width: 160px;
+    height: 40px;
+    font-size: 16px;
+    border-style: none;
+  
+    background-color:green;
+    opacity: 0.8;
+    
+
+   
+}
+
+.images1 img{
+    width:180px;
+    height: 130px;
+    margin-left: 30px;
+}
+.btn6{
+
+    color:white;
+    border-radius: 20px;
+    width: 140px;
+    height: 40px;
+    font-size: 15px;
+    border-style: none;
+    
+    
+    background-color:rgb(138, 138, 138);
+    padding-left: 5px;
+    opacity: 0.5;
+   
+}
+.images2 img{
+   
+    height: 150px;
+    width:145px;
+    
+
+    border-radius: 100%;
+}
+.subhead{
+    font-size: 15px;
+    font-weight: 500;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+  
+
+}
+.subi{
+    display: flex;
+    margin-left: 160px;
+  
+}
+.btn8{
+    background-color: rgb(88, 231, 88);
+    color:white;
+    border: 1px solid pink;
+	box-shadow: 0px 3px 5px 3px grey;
+    border-radius: 20px;
+    width: 150px;
+    height: 35px;
+    font-size: 18px;
+    border-style: none;
+    background-size:100px;
+  
+}
+.meettheteam{
+    background-color: rgb(104, 241, 104);
+}
+.dep2{
+    background-color: rgb(63, 212, 63);
+ 
+    
+   
+}
+.last1{
+
+  
+    background-color: rgb(31, 30, 30);
+    color: white;
+
+   
+}
+form #box3{
+    width:300px;
+    height:150px;
+    background-color: rgb(53, 52, 52);
+}
+form #box1{
+    width:300px;
+    height:40px; background-color: rgb(53, 52, 52);
+}
+form #box2{
+    width:300px;
+    height:40px;
+    background-color: rgb(53, 52, 52);
+}
+form button{
+    width:300px;
+    height:30px;
+    background-color: rgb(18, 207, 18);  
+    font-size: 13px;
+    color: white;
+    
+}
+.dot p{
+   
+    
+    font-size: 15px;
+}
+.p1{
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    
+padding-top: 22px;
+padding-bottom: 10px;
+}
+
+
+
+  
+  #nav2{
+    float: right;
+
+  }
+
+  .text{
+    display: flex;
+    
+
+  }
+
+ .Mainhead{
+  
+    top: 20%;
+    margin-left: 20%;
+ 
+} 
+
+@media (max-width:1025px) {
+    
+    .text{
+        text-align: center;
+    }
+}
+
+
+.divider{
+    height:100px;
+    width:3px;
+    background-color: green;
+    display: inline-block;
+}
+#list1{
+    margin-left:250px;
+    font-size:27px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+#list2{
+    margin-left:370px;
+    border-radius: 20px;
+    height: 27px;
+    border-style: none;
+    margin-top: 5px;
+}
+
+#round{
+    margin-right: -25px;
+}
+
+#round1{
+    margin-left: 75px;
+    margin-right: -60px;
+}
+#round2{
+    margin-left: -30px;
+   
+}
+
+.whatwedo{
+    background-color:white;
+}
+.whatwedo h4{
+    color: rgb(109, 109, 109);
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+.whatwedo hr{
+    width:70px;
+    height: 3px;
+    background-color: black;
+}
+.whatwedo .card i{
+    color: rgb(86, 197, 86);
+    background:radial-gradient(rgb(230, 230, 230) 100%, transparent 80%);
+    padding: 18px;
+    border-radius: 20%;
+}
+.whatwedo .card p{
+    font-size: 18px;
+    color:grey;
+    font-weight:500;
+    
+}
+.ourlatestwork{
+    background-color: rgb(63, 212, 63);
+}
+
+.ourlatestwork .team{
+    text-align:center;
+}
+.ourlatestwork .team h4{
+    color:rgb(3, 95, 3);
+    letter-spacing: 2px;
+    word-spacing: 3px;
+   
+}
+.ourlatestwork .team hr{
+    width:70px;
+    height: 3px;
+    background-color: black;;
+   
+}
+.Testimonials h4{
+    color: rgb(119, 115, 115);
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+
+.Testimonials hr{
+    width:70px;
+    height: 3px;
+    background-color: black;
+}
+.Testimonials p{
+   
+    color: rgb(116, 114, 114);
+    font-weight: 500;
+    font-size: 19px;
+    
+}
+.Testimonials img{
+   
+    margin-top:-20px;
+    width:75px;
+    height: 75px;
+    margin-left: -100px;
+}
+
+.Testimonials #head{
+   
+    margin-left: 140px;
+    color: rgb(165, 162, 162);
+    font-weight: bold;
+}
+
+.Testimonials #head1{
+   
+    margin-left: 40px;
+    margin-top: -40px;
+
+}
+
+.ourhappyclient .team h4{
+   
+    color:rgb(119, 115, 115);
+    letter-spacing: 2px;
+    word-spacing: 3px;
+
+}
+
+.ourhappyclient .team hr{
+   
+    width:70px;
+    height: 3px;
+    background-color: black;
+
+}
+
+
+.meettheteam .team h4{
+    color: rgb(117, 117, 117);
+    letter-spacing: 2px;
+    word-spacing: 3px;
+
+}
+
+.meettheteam .team hr{
+   
+    width:70px;
+    height: 3px;
+    background-color: black;
+
+}
+.meettheteam .images2 p{
+   
+    background:radial-gradient(rgb(197, 197, 197) 100%, transparent 80%);
+    padding: 4px;
+    border-radius: 30%;
+    width: 80px;
+    height: 30px;
+
+}
+.lastcolumn{
+    background-color:rgb(48, 47, 47) ;
+}
+.lastcolumn h4{
+    letter-spacing: 2px;
+    color:#D6D6D6;
+}
+.lastcolumn hr{
+    width:70px;
+    height: 3px;
+    color:white;
+}
+
+.lastcolumn p{
+    font-size: 16px;
+    color:rgb(184, 184, 184);
+}
+.lastcolumn table tr td img{
+
+    width:95px;
+    height: 85px;
+    color: rgb(184, 184, 184);
+
+}
+
+.lastcolumn table tr td h5{
+
+    color: rgb(184, 184, 184);
+    text-align: left;
+    font-weight: 300;
+
+}
+
+
+
+
+
+
+
+

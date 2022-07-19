@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,height=device-height, initial-scale=1.0,maximum-scale=1.0, user-scalable=0' ">
+    <title>Web Page</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+     
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- CSS only -->
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+ integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+
+
+
+ <script>
+   
+    $(document).ready(function() {
+            
+            $('#myApptBtn').addClass('active')
+         
+            $('#allApptBtn').removeClass('active').addClass('inactive');
+            $('#ApptBtn').removeClass('active').addClass('inactive');
+            $('#myApptBtn').removeClass('inactive'); 
+          
+            $('#allApptBtn').click(function() {
+        
+        if( $('#allApptBtn').addClass('active')){
+           
+            $('#ApptBtn').removeClass('active').addClass('inactive')
+            $('#myApptBtn').removeClass('active').addClass('inactive');
+        
+            $('#allApptBtn').removeClass('inactive');
+        }else{
+            
+            $('#myApptBtn').addClass('active')
+         
+        }
+          
+        });
+        
+    $('#ApptBtn').click(function() {
+        
+        if( $('#ApptBtn').addClass('active')){
+         
+         
+            $('#myApptBtn').removeClass('active').addClass('inactive');
+            $('#allApptBtn').removeClass('active').addClass('inactive');
+        
+            $('#ApptBtn').removeClass('inactive');
+        }else{
+          
+            $('#myApptBtn').addClass('active')
+        
+        }
+        
+        });
+        
+        
+        
+    $('#myApptBtn').click(function() {
+        
+        if( $('#myApptBtn').addClass('active')){
+         
+         
+            $('#ApptBtn').removeClass('active').addClass('inactive');
+            $('#allApptBtn').removeClass('active').addClass('inactive');
+        
+            $('#myApptBtn').removeClass('inactive');
+        }else{
+          
+            $('#myApptBtn').addClass('active')
+        
+        }
+        
+        });
+        
+        });
+
+</script>
+
+</head>
+<body>
+    
+    <div class="container-fluid ">
+       
+        <section>
+            <div class="row bg-white">
+                <div class="slider">
+                    <div class="load "></div>
+                    <div class="maincontainer">
+                        <div class="content">
+                            <div class="principal">
+                          
+                                
+                                <nav class="navbar navbar-expand-lg" id="navbar">
+
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                                    </svg>
+                                </button> 
+                            <div class="collapse navbar-collapse" id="menu">
+                                <ul class="navbar-nav mb-lg-0" >
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#">What We do?</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#">Testimonial</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#">Contct Us</a>
+                                </li>
+                               
+                                 <li><h1 id="list1" >Switch</h1></li>
+                                 <li><input id="list2" type="text" id="textbox" name="searching" placeholder="Search....." >
+                                     <i class="fas fa-search" style="position: absolute;margin-left:-27px;margin-top:10px;color:rgb(126, 123, 123);"></i></li>
+
+                                </ul>  
+                            </div>
+
+                                </nav>
+                   
+                       
+                        <div class="Mainhead">
+                        
+                            <div class=" col-lg-12 col-md-12 col-12 py-lg-5 p-lg-5 m-lg-5">
+                                <h1 id="head1">Art is Eternal Happiness</h1>
+                             </div>
+                           
+                            <div class="col-lg-8 col-md-8 col-12  py-lg-5 text-center ">
+                                <button class="btn1">WORK WITH US</button><br>
+                            </div><br><br>
+                            <div class="col-lg-8 col-md-8 col-12 py-lg-5 text-center">
+                                <button class="btn2">scroll down<i class="fa-solid fa-arrow-down-long"style="padding-left:4px;"></i></button>
+                            </div>
+                        </div>
+                           
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+<!------------------ WHAT WE DO ----------------->
+
+<section>
+    <br>
+<div class="row">
+        <div class="whatwedo">
+            <div class="maincontainer">
+                <div class="row">
+        <div class="col-log-12 col-md-12 col-12">
+            <div class="whatwedo" style="text-align:center;">
+                <h4>WHAT WE DO</h4>
+                <hr  class="mx-auto">
+                <h5 style="color:rgb(197, 192, 192);">Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet</h5><br>
+            
+            </div>
+        </div>
+    </div>
+   
+       
+    <div class="row">
+        <div class="col-lg-4 col-md-4 col-12 px-lg-5">
+
+            <div class="card ">
+                <br>
+                <div class="w3-xxxlarge"><i class="fa fa-camera-retro fa-4x"></i></div><br>
+                    <h5 style="color: grey;">Lorem Ipsum</h5>
+                    <p>This is photoshop's version of Lorem Ispum.
+                        Proin gravida nibh vel velit auctor aliquet.
+                        Aenean sollicitudin lorem quis bibendum auctor
+                    </p>
+                <button id="but1">Learn more</button>
+                <br>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-12 px-lg-5">
+            <div class="card">
+                <br>
+                    <div class="cimg2"><i class="fa-solid fa-weight-scale fa-4x" ></i></div><br>
+                        <h5 style="color: grey;">Lorem Ipsum</h5>
+                        <p>This is photoshop's version of Lorem Ispum.
+                             Proin gravida nibh vel velit auctor aliquet.
+                             Aenean sollicitudin lorem quis bibendum auctor
+                        </p>
+                <button id="but1">
+                    Learn more
+                </button>
+                <br>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-12 px-lg-5">
+             
+            <div class="card" >
+                <br>
+                    <div class="cimg2"><i class="fa-solid fa-suitcase fa-4x"></i></div><br>
+                        <h5 style="color: grey;" >Lorem Ipsum</h5>
+                        <p>This is photoshop's version of Lorem Ispum.
+                             Proin gravida nibh vel velit auctor aliquet.
+                             Aenean sollicitudin lorem quis bibendum auctor
+                        </p>
+            <button id="but1">Learn more</button>
+            <br>
+        </div>
+        </div>
+    </div>
+    </div>
+        </div>
+    </div>
+</section>
+
+
+<!-------------------OUR LATEST WORK  ------------------->
+
+<section>
+    <br>
+        <div class="row">
+            <div class="ourlatestwork">
+                <div class="maincontainer">
+                <div class="col-log-12 col-md-12 col-12 ">
+                    <br>
+                        <div class="team">
+                            <h4>OUR LATEST WORK</h4>
+                            <hr class="mx-auto">
+                            <h5 style="color:green;">Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet</h5><br>
+                        </div>
+                    </div>
+
+         <div class="col-log-12 col-md-12 col-12 text-center ">
+            <div id="mybt">
+          
+                <div data-role="controlgroup" data-type="horizontal">
+                    <button id="top1"><a href="#"  data-inline="true" data-mini="true" id="myApptBtn" style="padding-left:25px;  border-top-left-radius: 40%;margin-left: -6px;
+                        border-bottom-left-radius: 40%;" class="btnDesign">Photography</a></button>
+                    <button id="top2"><a href="#" data-role="button" id="allApptBtn" class="btnDesign"  style="padding:10px;margin-left: -6px;">Design</a></button>
+                    <button id="top3"><a href="#" data-role="button" data-inline="true" data-mini="true" id="ApptBtn" style="padding-right: 25px;padding-left: 25px;   border-top-right-radius: 40%;margin-left: -6px;
+                        border-bottom-right-radius: 40%;" class="btnDesign">Print</a></button>
+                </div>
+            </div>
+        </div>
+   
+
+
+<br><br>
+<div class="images">
+    <div class="row">
+       
+
+        <div class="col-lg-3 col-md-2 col-12 py-lg-5 px-lg-5">
+            <div class="thumbnail1">
+                <img class="img-fluid" id="img1" src="https://images.pexels.com/photos/257360/pexels-photo-257360.jpeg?cs=srgb&dl=pexels-pixabay-257360.jpg&fm=jpg" style="margin-left: 65px;">
+            </div>
+        </div>
+        <div class="col-lg-2 col-md-2 col-12 pt-lg-5">
+            <div class="thumbnail">
+                <img class="img-fluid" src="https://wallpaperaccess.com/full/1691795.jpg">
+            </div>
+        </div>
+        <div class="col-lg-2 col-md-2 col-12 pt-lg-5">
+            <div class="thumbnail" >
+                <img class="img-fluid" src="https://thumbs.dreamstime.com/b/slice-chocolate-raspberry-cake-garnished-fresh-raspberries-mint-sprig-shown-glass-milk-slice-158183455.jpg">
+            </div>
+        </div>
+        <div class="col-lg-2 col-md-2 col-12 pt-lg-5">
+            <div class="thumbnail">
+                <img class="img-fluid" src="https://wallpaper.dog/large/10838039.jpg">
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-2 col-12 pt-lg-5">
+            <div class="thumbnail">
+                <img class="img-fluid" src="https://cdn.wallpapersafari.com/62/58/90FsRO.jpg">
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-2 col-12 pt-0 px-lg-5 ">
+            <div class="thumbnail2">
+                <img class="img-fluid"id="img2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF83DJrHirR7yVTSttcPzk93SWe2CXfQQDtA&usqp=CAU" style="margin-left: 65px;">
+            </div>
+        </div>
+        <div class="col-lg-2 col-md-2 col-12 pt-0 ">
+            <div class="thumbnail">
+                <img class="img-fluid" src="https://rukminim1.flixcart.com/image/416/416/poster/k/e/s/food-and-snacks-hd-poster-art-bpsi16445-bpsil16445-large-original-imaehufsgpd7szrj.jpeg?q=70">
+            </div>
+        </div>
+        <div class="col-lg-2 col-md-2 col-12 pt-0">
+            <div class="thumbnail">
+                <img class="img-fluid" src="https://c8.alamy.com/zooms/9/c7c57a643f8f430b8d54f177bedf158a/ta35n8.jpg">
+            </div>
+        </div>
+        <div class="col-lg-2 col-md-2 col-12 pt-0">
+            <div class="thumbnail">
+                <img class="img-fluid" src="https://p4.wallpaperbetter.com/wallpaper/63/138/405/macro-insects-bugs-a-couple-ladybugs-hd-wallpaper-preview.jpg">
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-2 col-12 pt-0">
+            <div class="thumbnail">
+                <img class="img-fluid" src="https://w0.peakpx.com/wallpaper/800/691/HD-wallpaper-summer-growing-rice-plant-graphy-closeup.jpg">
+            </div>
+        </div>  
+    </div>
+    <br>
+        <div class="col-log-12 col-md-12 col-12 text-center pt-lg-5">
+            <button class="btn5">View more work<i class="fa-solid fa-arrow-right-long"style="padding-left:4px;"></i></button>
+        </div>
+    </div>
+<br><br>
+</div>
+</div>
+</div>
+  
+</section>
+
+
+<!-------------TESTIMONIALS-------------->
+
+<section>
+    <div class="row">
+        <div class="Testimonials">
+            <div class="maincontainer">
+        <div class="col-lg-12 col-md-12 col-12 text-center">
+         
+                <br><br>
+                    <h4>TESTIMONIALS</h4>
+                    <hr class="mx-auto">
+                    <h5 style=" color:rgb(197, 192, 192);">Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet</h5><br>
+            
+                <p>
+                    "Awalnya saya tidak menderita penyakit apapun<br>
+                    namun setelah saya tidak berobat ke klinik tongfang, saya dinyatakan<br>
+                    tidak menderita penyakit apapun!"
+                </p>
+            
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2eqD5XFzsVwvJajfsZSf9045OY8t5MmsZZw&usqp=CAU">
+                    <h5 id="head1">Mr.Herp</h5>
+                    <h6 id="head">CEO of Meme, Inc.</h6>
+                <br><br><br>
+            
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!---------------OUR HAAPPY CLIENT---------------->
+
+<section>
+    <div class="row bg-light">
+<div class="ourhappyclient">
+ <div class="maincontainer">
+    <div class="row">
+        <div class="col-log-12 col-md-12 col-12 ">
+                <br>
+            <div class="team" style="text-align:center;">
+                <h4>OUR HAPPY CLIENT</h4>
+                <hr class="mx-auto">
+                <h5 style=" color:rgb(197, 192, 192);">Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet</h5><br>
+            </div>
+        </div>
+    </div>
+ </div>
+    <div class="images1">
+        
+            <div class="maincontainer">
+                <div class="row ">
+            <div class="col-lg-3 col-md-3 col-12 py-lg-5">
+                <div class="thumbnail">
+                    <img  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAYFBMVEX///+AgIB9fX36+vqBgYH5+fl6enqEhISIiIjj4+OMjIzg4OD29vaPj4/u7u7z8/O2trbExMSsrKzR0dGVlZXh4eGysrK+vr6pqanOzs7X19eenp7q6uqUlJTCwsKioqLv2V3iAAALpklEQVR4nO2biXKkug6Gg82+NVswa/P+b3nBlsCA6Ux3MpPTt/RVZWqSgFu/F1mSnY8PgiAIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgiCIt4DPOM78z28b8lfgadSKrK7roq6z7jstxWkQRAtBMKTxT9n3bYK8Z67rsgXXLV5txglaUU/VmIS+HyZVP9Wi7YafNPRVbsWizgLs6LVWhntTebKTZFPqf3bYF/nvi+SBKIrGVwLd+qU2uibxoJcYzAcLvvOSpvv1xc1jJ0jAouCF99N+flGJY17VZFlW96Em0q7aX9f4MYTKmup5U26Zq7T4Y9Zt3iVuew+nPnP98rc1RqBwev7NXi28sDl54W7y2aqxvv2IoS/TqXXInvWkvEyUiN60y8zjaK20P2Hn64BCN3vuNZ6HUqBdXHjMQXjggMLP71v5HUpQKJ57LYd
+                    peD0FnVL1AXuy5R+nVV7BvT/5lrK+eBS+yOnhFr/taVBh/sxLka0Ejs6jpzq5zf56CIcKn3EHA8y/5KH1fHSZ/1TH/R3y5xXGkxLoPw4SeJ1M34rmfwhUWD79ivXV+PDgl3dCBSr8894OKjWEffoXzfpBhP2swhyClX+4xL6Vnj+tcIBgLfneRp527V2Iexk8dMfzx5WiLqapKbL8q0cveKSQx2ma3px9B7YQqnxnGxhEH/qebdueH1b1dY7Fuyn0bEvlnp5fiQcLIx66sm1zRdt23Weq2gWF7Jz/DlmVhDNJX2j5wU05Ust7PdqMJpvtUuYxN2vsRnwMH/XMMZQTZJiFa7iTHPTMMisMVjOWZ5N1iAflmVjyYkngY6iXcIHZfpKEvqUsd/vorDEtZHKWTLXIphGiXNewONK20osVFvSbnQh+rXCo59aZZXs29h52Xuda3/KkUeUu+nrRBUPUZhVMIf9+GBzeLS6bJZlSNOSQrDD/0LVx2c82Mm+e9ptILxwnAds1KLT09+J2yYzsqhC5aEZlg1UoSTUsw9fqVlyG4ywRmJEEmQrhmZftJHJpglVt7iHNIBZOdi5D/pj5RduVeRFidaGeVyE+AQr1OlQqPzXMgmWQ40hAnUOOIoes0Hoy2wJaKbDSfIsDaRjzdotRZp+s0qckh3yGVVosdWuW58JWds+t67H/te6qT2N4q5dR81v0zWq+zJ
+                    1wn02IXeiRl3IiZfd+EGbDlVWh1smR7Ehv7+D5HWxt1vGJC/ncWg2CrWxn3lmh9K67XKP11xUQgELvuWwL7JZd5R1ChRhMYNO6/8TSUHYs/90KsH8dbmmrPmKfmBRs4wzNe+tPOs86FqZiiNOm1dGczPwT5IyaWzn6KAgDtT05k5/inpyZGtrN/i48DXV+HEReHBXKl/YBgIMmBB/t6wp5fvUm7skJLIwB1tu5iWwXbqg5ynq9kJL2h6j5pFBKYJUesDg5Vo3bjxzX4fOzFD47OedcKbgvTOHkWBuT8i7UzVWDv3MrH1yotkIco5NC+ZKbaUFM18guZlY4zy9U+IIvLVX394ZoD7egXn4HQYVrSD8xomLy45V/sLJdvAqdYGP/OM1eoSoQb9li2jbSRzO7klVfVHjyAl8DMhpDhNYx3QpwmcwUoGGAIif0Xb2W7VpMIT/PYrPCVo2X8qw8yHtPRoV+A5E9ehrN8f0h8ajsMYYKWCSX/qGBSropWIVhs+x0m5D7MYwzKJLd9gr9XYgj93+nW8LZZXqOWYf9OaDC6tlzDph7lnHwJ32awp4WmhQGsBCXMeDK5R6yHK78FmvA5BgVgj8q8P1bO4VziMxcvynTrZMcjP38J8oekog9UAiTnyXpptAzpYM4E1i3aFEKD9uPqlqsuo8KYRLXWbKE5+6c2Ay7ruQ9hn7PBjU4vxvjL6HVpT7OcW8yJrz9p
+                    hCrDf4+9AGFgj9SOA8ds22/F+epKNaF+Di5WC4HxMhiawkvTqbJl8LMWCK3VaHxvKDRFOKivO+aVAp9zF8vFNpTJvLAZEu0TtPrugcflhLFcpoILLk5pl2VyUU5sEjlLoYKjesAQ7zlwc8RQgO9L/hdRnKrn8ANZr8OreRygG7rNM0uyiY8Ev2c2roLTH0tJkDXsMQ0NNzfxhAnovmwKNMUYkRrCW0sHOlL7XULOSqEBvxLhXzdEY2mzvqWJWztkKsefalx7DkGnMOmkI2m9oWmEOPUnduT6YXm6o8K8y9Lb58h2p0ZV1RZuVj8wAfHZWTQC3omF4UKx2UKQ2hguab5jArljs3xu3BzGPKYwtskHxUGkKz1lwrjGgM3z7wlphGQo0TVFfAeawyzGxXKk+gOXjOeNKAm9dkxjneFk04Oq35WCOHwqnB1ZNeFpm6tFXxx9n/ItEqcfIamOUxhZVmyC1P3qGXEfOimGz5bRcFMJJYYcxdSrgpxPARWmi6td3B9f3WsigphlaTQeabk+aYWh62swKVuOvppYMPG74MeTvose4bJN2t9lqDCdcbhzvTg3AXX92zRw6IpKgyVQgwjTTtptMsInfGyGATJuL8VcFIVnGjVxGYXsq8du3YXbKnWg4Io1ufmFf7oMAD3eHwoAsP9c78o8esOCCuRjadBVNcOdjuVE4mmSsIENhyr3780nBRGtvlJDeyWmepBYb
+                    g9KHQwlz8NoiNnhbuuDKeAV4/u2inUEtpvVDxdbg0KtZaPxfizQo7O2pouJUbblKiuRxEVrrNhq4QdDJdeV3f5AQx3eIhr5L0Kdvyp9rtzSoBNabW2YF1mxqsyksxdJSaXD7WYMKxtoxs+lAkjWUW1ddNKLP/u5sinrIN75mMOUHhYhh8detutJagYyf6o9fkUl9tAF6tEdhoR5I4Kt7GB81i2kxgou/dX4O5Y7teeVAv5qlSLDpDtT2/Krci0KVk9yfy5tUp+eVoWobVNf4zY5bt9ZAxRUaHuL+4wNnaLAUtcjqpsve8nLqDCzWo4JYtVwfzy8gOUL44SBfoVuxJtBJ96K+xNI/OSfupDb06o9Hg8LbaDkLkfottpICEFP4T+d7zx1nTDLb4NnWyHjWf/ipeS3DDr5r28neQxW3K9QeH9gl31Ddf+8mPXtTHRwlMQFCnbPjjXm/C3Z5g/5ZFWCljuV98xHd8fU7U9HKl5VVM3lTxqY5PJJZcVHnzZvi9vsTK/ufbdPBpXc4r1I4PK3WC+wKnj5OPxQC7MDrlEXFau9nsrmbK8Lbso6royz6bQwmT6ULQaRIKWQ4xe5eZUJhCVhXe0ly+/aY0HpPNu0eUiK8LNnAaN5VEuVvJOe/9TjNoJ6dx4d470h8zXNS7njX44LieftoUarDE7dvu8RVfyjFsec49NO1xFiHMqfa+LRlJkbWTSx6N70Y+hbe1
+                    yNns7vZF/jaA42BG0dV/N9FNT58bGP3gwazwmg3gpeu73pMnxNH3/3m0IgK9u9nOshTjGbuD5FHpL5zJIuVeJ2Z+UO534tqDqLBfcysk/naDP+H1WDn/7ThtvR7iFvXxeXpZ5vy4u++JywEufE+R108+zc2as+uViSJe+djPkOYJJ6fHmlYByymp1HK/cXH/AxVz/m3TKWXvTzv8MBWwa7CoSeRsgHAvvB0ecCqhTVP+Ja3WvAwmOYbnFd8gyfnia/mvg0MJ0lAW59hN39f6LxJd3uT7w7OHNFUKJJDT/ViZub64QJunFH8IE3uX4vg2PFcoC+5t7GpV8miv/qszCxvfeLSKI+c3jtFR9zacO7wOcx7HJeFIcsv0tsrcEKgjGHEIesL190JaGeJh7mqhLTMOa916FC3hExaxGv2HM1d9FFu8vcDnOxuKaO2bdkC583pcy0NV98HcjFtpfqrrMC5PQklk+C38w+/1VnLJnu5qgEusX7x2u7RjayXNdrXjiskoYambvzC0oRbFSt5//pH7yj+HOyv/J8iMIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgiAI4h/zP51VlFLRbD3cAAAAAElFTkSuQmCC" style="margin-left: 110px;">
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-12 py-lg-5">
+                <div class="thumbnail">
+                    <img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCbWkHcSNVH3_-2EntWKx4hGcHSUpSU0J_TDOblC1C-Swg8NhwZXY1OGAsJzRuVPAZKMo&usqp=CAU">
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-12 py-lg-5">
+                <div class="thumbnail">
+                    <img  src="https://www.securityascent.com/wp-content/uploads/2021/04/Microsoft-Logo.png">
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-12 py-lg-5">
+                <div class="thumbnail">
+                    <img  src="C:\Users\Brindha\Desktop\images\intel.png">
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-12 py-lg-5">
+                <div class="thumbnail" id="image">
+                    <img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToYbUCGEO1Q54PYjb7ve-URaF3_60RtlVRNRAvLxJq4SRtTT14U0lCGGDs5MaCOehX7qY&usqp=CAU" style="margin-left: 110px;">
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-12 py-lg-5">
+                <div class="thumbnail">
+                    <img  src="https://itcertsolution.com/wp-content/uploads/2021/10/Client-Cisco-logo-grey-1.png">
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-12 py-lg-5">
+                <div class="thumbnail">
+                    <img  src="C:\Users\Brindha\Desktop\images\apple.png">
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-12 py-lg-5">
+                <div class="thumbnail">
+                    <img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6UnTcctN2ZEM2IF-fVOTu3sjSEUaKKG2Jug&usqp=CAU">
+                </div>
+            </div>
+</div>
+        <br>
+</div>
+<div class="col-log-12 col-md-12 col-12 text-center">
+    <button class="btn6">see all client<i class="fa-solid fa-arrow-right-long"style="padding-left:4px;"></i></button>
+    <br><br><br>
+</div>
+
+ </div>
+</div>
+</div>
+</section>
+
+
+<!-----------------MEET THE TEAM -------------------->
+
+<section>
+    <div class="row">
+        <div class="meettheteam">
+            <div class="maincontainer">
+        <div class="col-lg-12 col-md-12 col-12 text-center">
+    
+            <div class="team" ><br>
+                <h4>MEET THE TEAM</h4>
+                <hr class="mx-auto">
+                <h5 style="color:green;">Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet</h5><br>
+            
+            </div>
+        </div><br>
+        <div class="images2 text-center">
+                <div class="row mx-auto o-gutters">
+                    <div class="col-lg-3 col-md-2 col-12 py-lg-5" id="round1">
+                        <div class="thumbnail">
+                           
+                            <img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP2MkGwDVYwgL9cngMOzG_AJQZVzAFXnoj2g&usqp=CAU">
+                        </div>
+                        <br><span class="divider"></span><br><br>
+                            <h5>Krishna Wijaya</h5>
+                            <p class="text-center mx-auto"><i style="color: rgb(235, 68, 160);" class="fa-solid fa-basketball fa-1x">&nbsp;&nbsp;
+                            <i  style="color:#005EFF;" class="fa-brands fa-behance-square fa-1x">&nbsp;&nbsp;</i>
+                            <i  style="color:#1C99E6 ;" class="fa-brands fa-twitter-square fa-1x"></i></i></p>
+                       
+                    </div>
+
+
+
+
+                    <div class="col-lg-2 col-md-2 col-12 py-lg-5  "  id="round">
+                        <div class="thumbnail">
+                            <img  src="https://w0.peakpx.com/wallpaper/36/943/HD-wallpaper-mariano-di-vaio-portrait-italian-actor-hoot-blue-mens-suit-thumbnail.jpg" >
+                        </div>
+
+                        <br><span class="divider"></span><br><br>
+                        <h5>Grbriel Yoshua</h5>
+                        <p class="text-center mx-auto"><i style="color: rgb(235, 68, 160);" class="fa-solid fa-basketball fa-1x">&nbsp;&nbsp;
+                        <i  style="color:#005EFF;" class="fa-brands fa-behance-square fa-1x">&nbsp;&nbsp;</i>
+                        <i  style="color:#1C99E6 ;" class="fa-brands fa-twitter-square fa-1x"></i></i></p>
+            
+                    </div>
+
+
+                    <div class="col-lg-2 col-md-2 col-12 py-lg-5 p-0 "  id="round">
+                        <div class="thumbnail">
+                            <img  src="https://i.pinimg.com/736x/5d/93/8d/5d938d46d9e052fa50876c8e71bf62f1.jpg" >
+                        </div>
+                        <br><span class="divider"></span><br><br>
+
+                        <h5>Adik N.K.L</h5>
+                            <p class="text-center mx-auto"><i style="color: rgb(235, 68, 160);" class="fa-solid fa-basketball fa-1x">&nbsp;&nbsp;
+                                <i  style="color:#005EFF;" class="fa-brands fa-behance-square fa-1x">&nbsp;&nbsp;</i>
+                                <i  style="color:#1C99E6 ;" class="fa-brands fa-twitter-square fa-1x"></i></i></p>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-12 py-lg-5 p-0 "  id="round">
+                        <div class="thumbnail">
+                            <img  src="https://media.istockphoto.com/photos/smiling-man-outdoors-in-the-city-picture-id1179420343?k=20&m=1179420343&s=612x612&w=0&h=G2UGMVSzAXGAQs3pFZpvWlHNRAzwPIWIVtSOxZHsEuc=">
+                        </div>
+                        <br><span class="divider"></span><br><br>
+                        <h5>Zan D.J</h5>
+                        <p class="text-center mx-auto"><i style="color: rgb(235, 68, 160);" class="fa-solid fa-basketball fa-1x">&nbsp;&nbsp;
+                            <i  style="color:#005EFF;" class="fa-brands fa-behance-square fa-1x">&nbsp;&nbsp;</i>
+                            <i  style="color:#1C99E6 ;" class="fa-brands fa-twitter-square fa-1x"></i></i></p>
+                    </div>
+                    <div class="col-lg-3 col-md-2 col-12 py-lg-5 p-0" id="round2" >
+                        <div class="thumbnail">
+                            <img  src="https://image.shutterstock.com/image-photo/smiling-bearded-young-male-model-260nw-788313199.jpg" >
+                        </div>
+                        <br><span class="divider"></span><br><br>
+                        <h5>Faizal Febri</h5>
+                            <p class="text-center mx-auto"><i style="color: rgb(235, 68, 160);" class="fa-solid fa-basketball fa-1x">&nbsp;&nbsp;
+                                <i  style="color:#005EFF;" class="fa-brands fa-behance-square fa-1x">&nbsp;&nbsp;</i>
+                                <i  style="color:#1C99E6 ;" class="fa-brands fa-twitter-square fa-1x"></i></i></p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+             
+            <div class="row text-center">
+                <div class="dep2">
+                    <div class="col-lg-12 col-md-12 col-12 py-lg-4 p-0">
+                        <button class="btn8">WORK WITH US</button><br>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+</section>
+
+
+
+<!--------------LAST MENU-------------->
+
+<section>
+    <div class="lastcolumn">
+    <div class="maincontainer">
+   
+            <div class="row text-center">
+              
+                <div class="row">
+                <div class="col-lg-4 col-md-4 col-12 p-0 p-0 px-lg-5">
+                    <br><br>
+                        <h4>ABOUT US</h4>
+                        <hr class="mx-auto"><br>
+                        <p>This is Photoshop's Version Of Lorem
+                            ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet.
+                            Aenean sollicitudin, lorem quis
+                            bibendum auctor, nisi elit consequat ipsum
+                            nec sagittis sem nibh id elit. Duis sed odio sit
+                            amit nibh vulputate cursus a sit amet mauris.
+                            Morbi accumsan ipsum velit. Ut aliquam
+                            massa nisi quis neque. Suspendisse in orci
+                            enim. Aenean sollicitudin, lorem quis bibendum
+                            auctor, nisi elit consequat ipsum, nec
+                            sagittis sem nibh id elit. Duis sed odio sit 
+                             amet nibh vulputate cursus.
+                        </p>
+                            <i style="color: rgb(235, 68, 160);background-color: rgb(168, 167, 167);padding: 8px;border-radius: 45%;" class="fa-solid fa-basketball fa-1x">&nbsp;&nbsp;<i  style="color:#005EFF;" class="fa-brands fa-behance-square fa-1x">&nbsp;&nbsp;</i>
+                            <i  style="color:rgb(87, 87, 255);" class="fa-brands fa-twitter-square fa-1x"></i></i>
+               
+                </div>
+            
+              
+              
+                <div class="col-lg-4 col-md-4 col-12 p-0 px-lg-5">
+              
+              <br><br>
+                         <h4>RECENT POSTS</h4>
+                         <hr class="mx-auto"><br>
+
+
+                <table class="table table-borderless">
+                    <tbody>
+                        <tr>
+                            <td> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF83DJrHirR7yVTSttcPzk93SWe2CXfQQDtA&usqp=CAU"></td>
+                            <td><h5>Lorem Ipsum Dolor Sit Amet.</h5>
+                            <button style="float:left;font-size:13px;background-color: rgb(14, 207, 14);padding: 2px;border-style: none;color: white;width: 80px;border-radius: 6%;font-weight: 300;">MAGAZINE</button></td>
+                        </tr>
+                        <tr>
+           
+                            <td><img src="https://rukminim1.flixcart.com/image/416/416/poster/k/e/s/food-and-snacks-hd-poster-art-bpsi16445-bpsil16445-large-original-imaehufsgpd7szrj.jpeg?q=70"></td>   
+                            <td><h5>Lorem Ipsum Dolor Sit Amet.</h5>
+                            <button style="float:left;font-size:13px;background-color:orange;;padding: 2px;border-style: none;color: white;width: 80px;border-radius: 6%;font-weight: 300;">UI DESIGN</button></td>   
+                        </tr>
+                        <tr>
+           
+                            <td><img src="https://c8.alamy.com/zooms/9/c7c57a643f8f430b8d54f177bedf158a/ta35n8.jpg"></td>   
+                            <td><h5>Lorem Ipsum Dolor Sit Amet.</h5>
+                            <button style="float:left;font-size:13px;background-color:orange;;padding: 2px;border-style: none;color: white;width: 95px;border-radius: 6%;font-weight: 300;">PHOTOGRAPHY</button></td>   
+                        </tr>
+
+                        <tr>
+           
+                            <td><img src="https://p4.wallpaperbetter.com/wallpaper/63/138/405/macro-insects-bugs-a-couple-ladybugs-hd-wallpaper-preview.jpg"></td>   
+                            <td><h5>Lorem Ipsum Dolor Sit Amet.</h5>
+                            <button style="float:left;font-size:13px;background-color:orange;padding: 2px;border-style: none;color: white;width: 80px;border-radius: 6%;font-weight: 300;">BOOK</button></td>   
+   
+                        </tr>
+                        <tr>
+           
+                            <td><img src="https://w0.peakpx.com/wallpaper/800/691/HD-wallpaper-summer-growing-rice-plant-graphy-closeup.jpg"></td>   
+                            <td><h5>Lorem Ipsum Dolor Sit Amet.</h5>
+                            <button style="float:left;font-size:13px;background-color:orange;;padding: 2px;border-style: none;color: white;width: 80px;border-radius: 6%;font-weight: 300;">UI DESIGN</button></td>   
+                        </tr>
+                    </tbody>
+                </table>
+            
+        </div>
+           
+
+
+            <div class="col-lg-4 col-md-4 col-12 text-center px-lg-3">
+           
+
+                
+                    <br><br>
+                        <h4>CONTACT US</h4>
+                        <hr class="mx-auto"><br>
+                        <p>1044 West 23rd street suite 721 New york NY 10010
+                            Email:Username@email.com
+                            Phone:+1(0)123 4567 890
+                            Fax:+1(0)321 6574 890
+                        </p>
+                    <form>
+                        <input type="text" name="textbox" id="box1" placeholder="Your Name"><br>
+                        <input type="text" name="textbox" id="box2" placeholder="Your Email"><br>
+                        <input type="textbox" name="text" id="box3" placeholder="Your Message..."><br>
+                        <button>SEND</button>
+                    </form>
+                    
+          
+               
+             <br>
+</div>
+                </div>
+                </div>
+            </div>
+    </div>
+
+</section>
+
+
+<section>
+    <div class="row text-center">
+        <div class="p1">
+            <div class="col-lg-12 col-md-2 col-12">
+                <p>
+                    made with <i class="fa-solid fa-heart" style="color: rgb(184, 184, 184);"></i> by Domain :)
+                </p>
+            </div>
+        </div>
+        </div>
+
+
+</section>
+
+
+</div>
+ 
+    
+<!-- JavaScript Bundle with Popper -->
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" 
+integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" 
+integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+</body>
+</html>
